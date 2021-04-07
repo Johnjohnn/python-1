@@ -10,4 +10,18 @@ Examples:
 """
 def string_int(txt):
     # Your code here
+   number = int(txt)
+   return number
 
+
+string = "example"
+other_string = "also a string"
+
+
+some_int = 1000
+
+#check the type of a variable 
+print(type(string))
+print(type(some_int))
+
+print(type(string_int("1000"))
