@@ -13,18 +13,13 @@ def string_int(txt):
    number = int(txt)
    return number
 
+def num_to_str(num):
+    return str(num)
 
-string = "example"
-other_string = "also a string"
 
 
-some_int = 1000
+potential_num = string_int("6")
 
-#check the type of a variable 
-print(type(string))
-print(type(some_int))
-
-print(type(string_int("1000"))
-
-# converts number into string
-print(str(35))
+print("6")
+print(type(potential_num))
+print(type(num_to_str(6)))
