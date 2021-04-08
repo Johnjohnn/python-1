@@ -25,3 +25,6 @@ print(type(string))
 print(type(some_int))
 
 print(type(string_int("1000"))
+
+# converts number into string
+print(str(35))
